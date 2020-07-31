@@ -1,0 +1,9 @@
+Network anomaly report produced at 2020-07-31 16:43:25.321855
+network anomaly traffic to ip:
+ip, bandwidth during snifiing, historical bandwidth, peak during sniffing, historical peak
+162.125.19.131, 1206910.0, 13911.0, 365, 365.0
+
+
+new ip:
+ip, bandwidth during snifiing, peak during sniffing
+52.202.154.4, 1.0, 6
