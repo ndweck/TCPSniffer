@@ -1,14 +1,10 @@
-Network anomaly report produced at 2020-07-31 16:43:25.321855
+Network anomaly report produced at 2020-08-02 11:11:28.599578
 network anomaly traffic to port:
 port, bandwidth during snifiing, historical bandwidth, peak during sniffing, historical peak
 
 
 new port:
 port, bandwidth during snifiing, peak during sniffing
-54837, 23.0, 108
-55096, 0.0, 0
-54586, 1.0, 4
-54622, 7.0, 17
-54652, 1.0, 6
-54934, 2331.0, 48
-54935, 1119.0, 23
+54718, 31, 3
+55074, 0, 0
+55181, 0, 0

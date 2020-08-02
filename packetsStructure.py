@@ -20,6 +20,7 @@ class PacketsStructure(RawData):
 
     def __iter__(self):
         self.ptr = 0
+        print(self.packetDataList)
         return self
 
     def __next__(self):
