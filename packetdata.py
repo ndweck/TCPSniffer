@@ -21,4 +21,3 @@ class PacketData:
     def __repr__(self):
         return "<(dest_port='%d', dest_ip='%s', src_port='%d', src_ip='%s, 'payload_size='%d', curr_time='%d')>" \
                % (self.tcp_dport, self.ip_dst, self.tcp_sport, self.ip_src, self.payload_size, self.curr_time)
-
