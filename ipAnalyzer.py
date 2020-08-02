@@ -44,7 +44,7 @@ class IpAnalyzer(Analyzer):
             # add to port dictionary
             if self.ports.get(packet.tcp_dport) is None:
                 # new port
-                self.ports[packet.tcp_dport] = Portdata(packet.tcp_dport, packet.payload_size, packet.curr_time)
+                self.ports[packet.tcp_dport] = PortData(packet.tcp_dport, packet.payload_size, packet.curr_time)
             else:
                 # update port
                 self.ports[packet.tcp_dport].add_packet(packet.payload_size, packet.curr_time)
@@ -241,7 +241,7 @@ class IpData(AnalyzedData):
         self.ip = ip
 
 
-class Portdata(AnalyzedData):
+class PortData(AnalyzedData):
     """
     analyzed data by port
     """
