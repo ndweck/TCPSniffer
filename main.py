@@ -6,7 +6,7 @@ import filter
 from ipAnalyzer import *
 
 
-PACKETS = 100
+PACKETS = 300
 REPORT_FILE = '_report.txt'
 
 
